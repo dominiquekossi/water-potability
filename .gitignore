@@ -1,5 +1,4 @@
-*.csv
-!data/*.csv
+data/*.csv
 
 venv/
 .venv/
@@ -32,3 +31,4 @@ build/
 
 models/*.joblib
 reports/figures/*.png
+reports/figures/*.csv

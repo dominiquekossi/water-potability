@@ -8,13 +8,9 @@ O objetivo é construir e avaliar modelos de classificação supervisionada para
 
 ## Autores
 
-| Nome            | Matrícula |
-| --------------- | --------- |
-| Kossi Sedjro Mawuli Dominique  | 422707    |
-
-## Vídeo Demonstrativo
-
-[Assista ao vídeo demonstrativo no YouTube](https://youtube.com/LINK_DO_VIDEO_AQUI)
+| Nome                          | Matrícula |
+| ----------------------------- | --------- |
+| Kossi Sedjro Mawuli Dominique | 422707    |
 
 ## Pré-requisitos
 
@@ -34,13 +30,9 @@ pip install -r requirements.txt
 
 ## Dataset
 
-O dataset Water Potability deve ser obtido no Kaggle:
+O dataset Water Potability está incluído no repositório (`water_potability.csv`) e contém 3276 amostras com 9 atributos físico-químicos (pH, Dureza, Sólidos, Cloraminas, Sulfato, Condutividade, Carbono Orgânico, Trihalometanos, Turbidez) e a variável alvo binária Potability (0 = não potável, 1 = potável).
 
-1. Acesse: https://www.kaggle.com/datasets/adityakadiwal/water-potability
-2. Baixe o arquivo `water_potability.csv`
-3. Coloque na raiz do projeto
-
-O arquivo contém 3276 amostras com 9 atributos físico-químicos (pH, Dureza, Sólidos, Cloraminas, Sulfato, Condutividade, Carbono Orgânico, Trihalometanos, Turbidez) e a variável alvo binária Potability (0 = não potável, 1 = potável).
+Fonte: [Water Potability (Kaggle)](https://www.kaggle.com/datasets/adityakadiwal/water-potability)
 
 ## Execução
 
