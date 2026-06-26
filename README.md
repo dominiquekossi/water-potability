@@ -10,7 +10,7 @@ O objetivo é construir e avaliar modelos de classificação supervisionada para
 
 | Nome            | Matrícula |
 | --------------- | --------- |
-| Dominique Kossi | 000000    |
+| Kossi Sedjro Mawuli Dominique  | 422707    |
 
 ## Vídeo Demonstrativo
 
