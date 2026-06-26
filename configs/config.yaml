@@ -1,0 +1,26 @@
+random_state: 42
+dataset_path: "water_potability.csv"
+
+preprocessing:
+  imputation_strategy: "median"
+  knn_neighbors: 5
+  scaling_method: "standard"
+  balancing_technique: "smote"
+  test_size: 0.2
+
+training:
+  cv_folds: 5
+  scoring_metric: "f1"
+  models:
+    - logistic_regression
+    - random_forest
+    - xgboost
+
+mlflow:
+  experiment_name: "water-potability-classification"
+  tracking_uri: "mlruns"
+  port: 5000
+
+output:
+  figures_dir: "reports/figures/"
+  models_dir: "models/"
